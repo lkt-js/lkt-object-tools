@@ -39,6 +39,8 @@ test('fetch in object', () => {
 
   expect(fetchInObject(obj, 'level1.level2.level3.level4')).toEqual('Hi!');
   expect(JSON.stringify(fetchInObject(obj, 'level1.level2.level3'))).toEqual(JSON.stringify({level4: 'Hi!'}));
+  expect(fetchInObject(obj, 'level1/level2/level3/level4', '/')).toEqual('Hi!');
+  expect(fetchInObject(obj, 'level1->level2->level3->level4', '->')).toEqual('Hi!');
 });
 
 test('merge objects', () => {

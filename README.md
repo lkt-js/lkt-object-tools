@@ -48,6 +48,10 @@ const obj = {
 
 fetchInObject(obj, 'level1.level2.level3.level4'); // Returns "Hi!"
 fetchInObject(obj, 'level1.level2.level3'); // Returns {level4: 'Hi!'}
+
+// Custom separator
+fetchInObject(obj, 'level1/level2/level3/level4', '/'); // Returns "Hi!"
+fetchInObject(obj, 'level1->level2->level3->level4', '->'); // Returns "Hi!"
 ```
 
 
