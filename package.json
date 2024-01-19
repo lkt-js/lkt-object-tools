@@ -1,6 +1,6 @@
 {
   "name": "lkt-object-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of functions for working with objects",
   "main": "src/index.js",
   "module": "src/index.js",
@@ -34,13 +34,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/lkt-ui/lkt-object-tools.git"
+    "url": "git+https://github.com/lkt-js/lkt-object-tools.git"
   },
   "author": "Antonio Ibáñez <lkt.web.tech@gmail.com>",
   "license": "MIT",
-  "homepage": "https://gitlab.com/lkt-ui/lkt-object-tools#readme",
+  "homepage": "https://github.com/lkt-js/lkt-object-tools#readme",
   "bugs": {
-    "url": "https://gitlab.com/lkt-ui/lkt-object-tools/issues"
+    "url": "https://github.com/lkt-js/lkt-object-tools/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.13.13",
