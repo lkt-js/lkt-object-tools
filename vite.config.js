@@ -14,7 +14,7 @@ export default {
         lib: {
             entry: `${ src }/index.ts`,
             name: 'LktObjectTools',
-            fileName: (format) => `lkt-object-tools.${ format }.js`
+            formats: ['es']
         },
         minify: true,
         rollupOptions: {

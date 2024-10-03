@@ -1,6 +1,6 @@
 {
   "name": "lkt-object-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of functions for working with objects",
   "keywords": [
     "lkt",
@@ -16,7 +16,7 @@
     ".": {
       "import": "./dist/index.js"
     },
-    "./styles": "./build/style.css"
+    "./styles": "./dist/style.css"
   },
   "types": "./dist/index.d.ts",
   "files": ["dist/*"],
